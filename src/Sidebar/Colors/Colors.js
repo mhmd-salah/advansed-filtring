@@ -2,7 +2,7 @@ import "./Colors.css"
 function Colors() {
   return (
     <div>
-      
+      colors
     </div>
   )
 }
