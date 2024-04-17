@@ -22,6 +22,7 @@
 .card-reviews{
   margin-bottom: 1rem;
   display: flex;
+  align-items: center;
 }
 .rating-star{
   color: #ffc146;

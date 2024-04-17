@@ -1,0 +1,18 @@
+.category{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sidebar-title{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.sidebar-label-container{
+  position: relative;
+  /* padding-left: 36px; */
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  display: flex;
+  gap: 5px;
+}
