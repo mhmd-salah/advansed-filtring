@@ -5,7 +5,12 @@ nav{
   align-items: center;
   padding: 20px;
   z-index: 999;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 10px 7px 30px #f7f7f7;
+  width: 100%;
 }
 input[type="text"]{
   padding: 12px 20px;

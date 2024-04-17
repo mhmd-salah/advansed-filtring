@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
 a{
   text-decoration: none;
   color: rgb(97,97,97);
@@ -12,16 +15,25 @@ li{
 }
 .btns{
   padding: 10px 20px;
-  margin-right: 6px;
+  margin-right: 8px;
   background-color: transparent;
   border: none;
   border: 0.6px solid #ccc;
   border-radius: 5px;
   color: #323232;
   cursor: pointer;
+  transition: .3s;
+  user-select: none;
+}
+.btns:hover{
+  background-color: #f9f9f9;
+}
+.btns:active{
+  transform: translateY(-4px);
+  box-shadow: 3px 3px 0px #e4e4e4;
 }
 .icon{
   width: 1.4rem;
   height: 1.4rem;
-  color: black;
+  /* color: black; */
 }
