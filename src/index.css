@@ -36,4 +36,8 @@ li{
   width: 1.4rem;
   height: 1.4rem;
   /* color: black; */
+  transition: .3s;
+}
+.icon:hover{
+  color: rgb(27, 108, 230);
 }

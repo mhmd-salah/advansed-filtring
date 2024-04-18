@@ -1,12 +1,10 @@
-.recommended{
-  margin-left: 20px;
-}
+
 .recommended-flex{
   display: flex;
-  margin-left: 20rem;
+  margin-left: 18rem;
 }
 .recommended-title{
-  margin-left: 20rem;
+  margin-left: 18rem;
   margin-bottom: 20px;
   margin-top: 20px;
   font-size: 20px;
